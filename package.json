@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --preset=env,react --watch",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.5.1",
+    "global": "^4.4.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^7.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "validator": "^13.7.0",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
+}
